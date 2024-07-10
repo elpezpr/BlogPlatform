@@ -67,8 +67,8 @@ Once the application is running you can make HTTP requests using Postman or simi
     Posts
     - GET /api/posts: Get all posts
     - GET /api/post/{id}: Get a post by ID
-    - GET /api/post/title?title={title}: Get a post by title
-    - GET /api/posts/content?keyword={keyword}: Get posts containing a keyword in content
+    - GET /api/post/title: Get a post by title
+    - GET /api/posts/content: Get posts containing a keyword in content
     - POST /api/posts: Create a new post
     - PUT /api/posts/{id}: Update an existing post by ID
     - PATCH /api/posts/title/{id}: Update a post's title by ID
